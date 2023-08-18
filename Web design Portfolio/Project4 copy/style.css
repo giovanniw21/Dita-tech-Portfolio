@@ -1,0 +1,39 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4.3rem;
+    color: white;
+}
+body {
+    background-image: linear-gradient(to bottom right, #00f490  , #00bbc9) ;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color:rgba(250, 235, 215, 0);
+}
+
+.drop-shadow {
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.156);
+}
+.lead{
+    color: white;
+    font-size: 2.2rem;
+}
+
+.btn-outline-light{
+    border-color: white;
+}
+.btn-outline-ligh:hover{
+    background-color: rgba(255, 255, 255, 0.204);
+}
+
+.btn-primary {
+    background-color: #00bbc9;
+}
+.btn-primary, .btn-primary:hover {
+    background-color: #00bbc9;
+    border-color: #00bbc9;
+}

@@ -1,0 +1,214 @@
+html {
+    height: 100%;
+    background-image: linear-gradient(to right, #fc5e55, #fa4083)
+}
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    background-image: url(images/image-lion-background\ copy.png);
+    font-family : 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.125rem;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+header  {
+   padding-top: 20px;
+   padding-bottom: 50px;
+   display: flex;
+   justify-content: space-between;
+  align-items: center;
+  border-bottom:1px solid grey ;
+     
+}
+
+nav {
+    text-align: right;
+    border: white;
+   
+}
+main {
+   
+    min-height: 300px; 
+    display: flex; 
+    align-items: center;
+}
+.main2 {
+    min-height: 100px;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.cards1 {
+    background-image: url(images/image-background-card1\ copy.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.198);
+    
+}
+.cards2 {
+    background-image: url(images/image-background-card2\ copy.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.198);
+    
+}
+.cards3 {
+    background-image: url(images/image-background-card3\ copy.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.198);
+    
+}
+.cards1 .cards2 .cards3 {
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+}
+.herobox1 {
+flex: 2;
+}
+.herobox2 {
+flex: 1;
+}
+h1 {
+    font-size: 3.25;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1.125rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.217);
+}
+h2 {
+    font-size: 2;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+.cards p {
+    font-size: 0.85rem;
+    line-height: 1.2 rem;
+    margin-top: 10px ;
+}
+i {
+    font-size: 80px;
+} 
+a {
+  color: white;  
+  text-decoration: none;
+  
+}
+.mybutton {
+    background-color:white ;
+    color:#fc5e55 ;
+    font-family: 'Playfair Display', serif ;
+    padding: 11px 25px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.198);
+}
+.mybutton:hover {
+background-color: rgb(0, 255, 255);
+transition-duration: 2s;
+}
+nav a.mybutton {
+    margin-left: 30px;
+
+}
+.navbutton {
+    background-color:#fc5e55 ;
+    color:white ;
+    border: 2px solid white;
+    padding: 12px 26px;
+    border-radius: 10 px; 
+    font-family: 'Playfair Display', serif;  
+    display: inline-block;
+    position: relative;
+
+}
+.testimonials {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    margin-top: 65px;
+}
+.tbox p :last-of-type {
+  font-size: 0.8rem;
+  padding-left: 30px;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+}
+.navbutton:hover .dropdown {
+    display: block;
+    padding-top: 15px;
+}
+.dropdown .navbutton {
+width: 120px; 
+background-color: white;
+}
+.dropdown .navbutton a {
+ color: #fc5e55;
+    }
+    .inputwrapper {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    input[type=text] , input[type=email], textarea{
+        padding: 12px 20px;
+        width: 80%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        box-sizing: border-box;
+    }
+    .newline {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .margin-right-a {
+        margin-right: 20px;
+    }
+
+    input[type=radio] {
+        margin-right: 10px;
+    }
+    .fireaway {
+        background-color:white ;
+        color:#fc5e55 ;
+        font-family:Arial, Helvetica, sans-serif ;
+        padding: 11px 25px;
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.198);  
+    }
