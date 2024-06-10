@@ -1,0 +1,130 @@
+body {
+    background-color: #485057;
+
+    background-image: blue;
+}
+
+.mybutton {
+    color: #D8DBDE;
+}
+
+.mycontainer {
+    align-items: center;
+    align-content: center;
+    max-width: 100%;
+    margin: none;
+}
+
+.myfooter {
+    justify-content: center;
+    align-items: stretch;
+
+}
+
+nav {
+    position: fixed;
+    background-color: #485057;
+    background-image: blue;
+}
+
+.mynav {
+    position: sticky;
+    color: #E4DB62;
+}
+
+p {
+    color: #D8DBDE;
+
+}
+
+footer {
+    background-color: #485057;
+    border: 3px solid #E4DB62;
+    color: #D8DBDE;
+    margin-top: 8rem;
+}
+
+h1 {
+    color: #D8DBDE;
+    font-weight: 800;
+}
+
+.card-title {
+    color: #D8DBDE;
+    font-weight: 400;
+
+}
+
+.card-body {
+    background-color: #485057;
+    border: 3px solid #E4DB62;
+}
+
+.h2 {
+    color: #D8DBDE;
+}
+
+.container-fluid {
+    background-color: #485057;
+}
+
+.navbar-brand {
+    border: 1px solid #E4DB62;
+}
+
+.nav-link {
+    border: 1px solid #E4DB62;
+    font-weight: 500;
+}
+
+.dropdown-item {
+    color: #D8DBDE;
+}
+
+.navbar-brand .nav-link .dropdown-item {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-toggler-icon {
+    border: 2px solid #E4DB62;
+}
+
+.--bs-navbar-padding-y {
+    padding: none;
+}
+
+.dropdown-menu {
+    background-color: blue;
+}
+
+.btn .btn-primary {
+    color: #D8DBDE;
+    border: 2px solid #E4DB62;
+}
+
+.text-center {
+    object-fit: contain;
+}
+
+.mycontainer1 {
+    display: inline-block;
+    position: relative;
+}
+
+.icon {
+    border: 1px solid #E4DB62;
+
+}
+
+.col {
+    object-fit: contain;
+    max-width: 50%;
+
+}
+
+.bi {
+    color: #ffffff;
+    border: 2px solid #E4DB62;
+
+}
