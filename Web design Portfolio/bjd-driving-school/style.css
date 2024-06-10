@@ -1,0 +1,22 @@
+body {
+    background-image: url(img/K53-watermark.svg), linear-gradient(to right, #FFFFFF, #0045BC);
+    height: 100%;
+    font-size: 1.125rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.box1 {
+    flex: 2;
+}
+
+.box2 {
+    flex: 1;
+}
